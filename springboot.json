@@ -13,7 +13,8 @@
         ]
     },
     "checkver": {
-        "github": "https://github.com/spring-projects/spring-boot"
+        "github": "https://github.com/spring-projects/spring-boot",
+        "re": "<a href=\".*\/releases\/tag\/(?:v)?(.+)\">"
     },
     "autoupdate": {
         "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/$version/spring-boot-cli-$version-bin.zip",
